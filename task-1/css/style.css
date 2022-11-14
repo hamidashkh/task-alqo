@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white !important;
+}
+
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .header ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+    background-color:transparent;
+  }
+  
+.header li a {
+    display: flex;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+  
+.header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+    
+.header .menu {
+    clear: both;
+    max-height: 0;
+  
+  }  
+.container{
+    height: 100vh;
+  }
+.dec_text{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+body{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/91/BlueSkyWhiteClouds22.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.message{
+    font-size: 30px;
+}
